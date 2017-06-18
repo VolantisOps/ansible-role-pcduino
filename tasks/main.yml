@@ -1,0 +1,3 @@
+---
+- name: Install uboot package for pcduino3
+  pacman: "name=uboot-{{ pcduino_model }} state=present"
